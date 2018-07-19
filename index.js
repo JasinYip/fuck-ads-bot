@@ -22,7 +22,7 @@ bot.on('new_chat_members', ctx => {
       ctx.restrictChatMember(user.id).then(() =>
         ctx.deleteMessage(msg.message_id + 1)
       ).catch(Promise.reject)
-    ]).catch(console.error)
+    ]).catch(err => console.error(err, ctx))
   }
 })
 
