@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "A telegram bot that can fuck out the users who is using a fucking ad user name or sent messages with ads.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JasinYip/fuck-ads-bot"
+  },
   "scripts": {
     "start": "pm2 start ecosystem.config.js",
     "dev": "pm2-dev start ecosystem.config.js",
